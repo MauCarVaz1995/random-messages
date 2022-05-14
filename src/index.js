@@ -2,6 +2,8 @@
 const messages = [
     "Mauricio",
     "Daniela",
+    "Isis",
+    "Carolina",
     "Paola",
     "Yolanda",
     "Kevin",
@@ -11,7 +13,7 @@ const messages = [
 //Función para hacer el random
 const randomMsg = () =>{
     const message = messages[Math.floor(Math.random() * messages.length)];
-    console-log(message);
+    console.log(message);
 };
 
 module.exports = {randomMsg};

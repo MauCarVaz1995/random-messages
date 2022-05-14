@@ -1,7 +1,7 @@
 {
   "name": "random-messages",
   "version": "1.0.0",
-  "description": "random de mensajes",
+  "description": "Paquete para NPM que genera un mensaje aleatorio, con base en un arreglo de strings de nombres de personas.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/MauCarVaz1995/random-messages#readme",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "../bin/global.js"
   },
   "preferGlobal": true
 }
